@@ -1,0 +1,17 @@
+<html><head></head><body style="margin: 0px; height: 100vh;"><iframe src="https://vel.gg/bo1z/" style="border: none; width: 100%; height: 100%; margin: 0px;"></iframe></body></html>
+
+<a href="#0" id="pop1btn" class="cd-popup-trigger" onclick="openpopup('pop1')">View Pop-up 1</a>
+<a href="#0" class="cd-popup-trigger" onclick="openpopup('pop2')" >View Pop-up 2</a>
+<div id="pop1" class="cd-popup" role="alert">
+	<div class="cd-popup-container">
+		<p>Are you sure you want to delete this element 1 ?</p>
+		<a href="#0" class="cd-popup-close"></a>
+	</div> <!-- cd-popup-container -->
+</div> <!-- cd-popup -->
+
+<div id="pop2" class="cd-popup" role="alert">
+	<div class="cd-popup-container">
+		<p>Are you sure you want to delete this element 2 ?</p>
+		<a href="#0" class="cd-popup-close"></a>
+	</div> <!-- cd-popup-container -->
+</div> <!-- cd-popup -->
